@@ -106,5 +106,5 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 **Jeel Pipaliya**  
-Machine Learning Engineer  
+AIML Student 
 📧 pipaliyajeelj@gmail.com
