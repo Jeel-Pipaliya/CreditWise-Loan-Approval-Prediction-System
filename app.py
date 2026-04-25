@@ -134,9 +134,24 @@ with st.form("loan_form"):
     savings             = c3.number_input("Savings Balance (₹)",     min_value=0, value=100000, step=5000)
     collateral_value    = c4.number_input("Collateral Value (₹)",    min_value=0, value=500000, step=10000)
 
-    credit_score    = c1.number_input("Credit Score",      min_value=300, max_value=900, value=700)
-    existing_loans  = c2.number_input("Existing Loans",    min_value=0,   max_value=10,  value=0)
-    dti_ratio       = c3.number_input("DTI Ratio (%)",     min_value=0.0, max_value=100.0, value=30.0, step=0.5)
+    st.markdown('<div class="section-title">📊 Credit Profile</div>', unsafe_allow_html=True)
+    c1, c2, c3 = st.columns(3)
+    credit_score   = c1.number_input(
+        "Credit Score",
+        min_value=300,
+        max_value=900,
+        value=700,
+        help="Typical bureau score range is 300 to 900.",
+    )
+    dti_ratio      = c2.number_input(
+        "DTI Ratio (%)",
+        min_value=0.0,
+        max_value=100.0,
+        value=30.0,
+        step=0.5,
+        help="Debt-to-Income ratio. Lower is generally better.",
+    )
+    existing_loans = c3.number_input("Existing Loans", min_value=0, max_value=10, value=0)
 
     # ── Loan Details ──────────────────────────────────────────────────────────
     st.markdown('<div class="section-title">🏦 Loan Details</div>', unsafe_allow_html=True)
