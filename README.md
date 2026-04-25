@@ -2,12 +2,12 @@
 
 An intelligent loan approval system powered by Machine Learning for **SecureTrust Bank**.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://creditwise-loan-approval-prediction-system.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jeel-pipaliya-creditwise-loan-approval-prediction-system.streamlit.app/)
 
 ---
 
 ## 🚀 Live Demo
-👉 [Open Streamlit App](https://creditwise-loan-approval-prediction-system.streamlit.app)
+👉 [Open Streamlit App](https://jeel-pipaliya-creditwise-loan-approval-prediction-system.streamlit.app/)
 
 ---
 
